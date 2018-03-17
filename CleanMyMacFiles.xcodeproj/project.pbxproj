@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D3202F405996EE1B2EF90A /* CleanMyMacFiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83D323AFBA871BC7ECBDA0FC /* CleanMyMacFiles.xcdatamodeld */; };
+		83D3208C818B002D98560C26 /* CleanMyMacFilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D32294BD17DE188BA3FCA5 /* CleanMyMacFilesUITests.swift */; };
+		83D322C16F370097A73D9F93 /* CleanMyMacFiles.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 83D32247918CECD2DE6062E2 /* CleanMyMacFiles.entitlements */; };
+		83D3264DC4CC670F8E9A5884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D32A71BA1AD67D62D68A75 /* Assets.xcassets */; };
+		83D32A7C9F3E6B286CAEC464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D32504DBC694CACF25AB8A /* Main.storyboard */; };
+		83D32C07AAA71AC366BE664D /* CleanMyMacFilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D3202318B19D4752AFED85 /* CleanMyMacFilesTests.swift */; };
+		83D32D318D46373BA0A3793A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D32EA303B36B21F9AEA1F2 /* AppDelegate.swift */; };
+		83D32F11DE717A98AB839200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D322A5290A35E69FCFFF7F /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D322EF083FF8D98CEDE04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D3270E723D6BED424D928A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D3219BFD2313F996E6B4F8;
+			remoteInfo = CleanMyMacFiles;
+		};
+		83D32CE3F2C90BE0A2FE59DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D3270E723D6BED424D928A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D3219BFD2313F996E6B4F8;
+			remoteInfo = CleanMyMacFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D3202318B19D4752AFED85 /* CleanMyMacFilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMacFilesTests.swift; sourceTree = "<group>"; };
+		83D321772AA5E51D222A4D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		83D32247918CECD2DE6062E2 /* CleanMyMacFiles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanMyMacFiles.entitlements; sourceTree = "<group>"; };
+		83D32294BD17DE188BA3FCA5 /* CleanMyMacFilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMacFilesUITests.swift; sourceTree = "<group>"; };
+		83D322A5290A35E69FCFFF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83D322FCBAC5470C55121D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		83D3240EF718D1A633C2D51F /* CleanMyMacFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanMyMacFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D3272251AE883EBD6112A4 /* CleanMyMacFilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanMyMacFilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D32833237EBBBF2EF721E5 /* CleanMyMacFiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleanMyMacFiles.xcdatamodel; sourceTree = "<group>"; };
+		83D329E7F17687C1FC7BFF2C /* CleanMyMacFilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanMyMacFilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D32A71BA1AD67D62D68A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D32B437496AD1833FB119A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		83D32E5A4E00FF26D3A14B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83D32EA303B36B21F9AEA1F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D321FAE112060FC10663F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D327D4EB6B5847FA1B67A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D32E6CBED9CAD4C99B6C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D32108349E5601A91A84BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D3240EF718D1A633C2D51F /* CleanMyMacFiles.app */,
+				83D329E7F17687C1FC7BFF2C /* CleanMyMacFilesTests.xctest */,
+				83D3272251AE883EBD6112A4 /* CleanMyMacFilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D32110C4964FE0B4208878 /* CleanMyMacFilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D32B437496AD1833FB119A /* Info.plist */,
+				83D3202318B19D4752AFED85 /* CleanMyMacFilesTests.swift */,
+			);
+			path = CleanMyMacFilesTests;
+			sourceTree = "<group>";
+		};
+		83D321B18CC6C0554DE286FC = {
+			isa = PBXGroup;
+			children = (
+				83D32108349E5601A91A84BE /* Products */,
+				83D323669E5F9D5D2DE42F0B /* CleanMyMacFiles */,
+				83D32110C4964FE0B4208878 /* CleanMyMacFilesTests */,
+				83D32360CDEFC6FEC78D74D0 /* CleanMyMacFilesUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		83D32360CDEFC6FEC78D74D0 /* CleanMyMacFilesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83D321772AA5E51D222A4D06 /* Info.plist */,
+				83D32294BD17DE188BA3FCA5 /* CleanMyMacFilesUITests.swift */,
+			);
+			path = CleanMyMacFilesUITests;
+			sourceTree = "<group>";
+		};
+		83D323669E5F9D5D2DE42F0B /* CleanMyMacFiles */ = {
+			isa = PBXGroup;
+			children = (
+				83D322FCBAC5470C55121D62 /* Info.plist */,
+				83D32A71BA1AD67D62D68A75 /* Assets.xcassets */,
+				83D32247918CECD2DE6062E2 /* CleanMyMacFiles.entitlements */,
+				83D32EA303B36B21F9AEA1F2 /* AppDelegate.swift */,
+				83D32504DBC694CACF25AB8A /* Main.storyboard */,
+				83D322A5290A35E69FCFFF7F /* ViewController.swift */,
+				83D323AFBA871BC7ECBDA0FC /* CleanMyMacFiles.xcdatamodeld */,
+			);
+			path = CleanMyMacFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D3207C56DB157A1FEF2911 /* CleanMyMacFilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D323D4103ECF84A1FD4943 /* Build configuration list for PBXNativeTarget "CleanMyMacFilesTests" */;
+			buildPhases = (
+				83D326908F01CD9951EB9231 /* Sources */,
+				83D321FAE112060FC10663F5 /* Frameworks */,
+				83D32907C699A020C4127AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D32712E1BE9CD17DCDD793 /* PBXTargetDependency */,
+			);
+			name = CleanMyMacFilesTests;
+			productName = CleanMyMacFilesTests;
+			productReference = 83D329E7F17687C1FC7BFF2C /* CleanMyMacFilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83D3219BFD2313F996E6B4F8 /* CleanMyMacFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D32D1D21EE50EDE2624030 /* Build configuration list for PBXNativeTarget "CleanMyMacFiles" */;
+			buildPhases = (
+				83D3233090F4CCA9BAB2C727 /* Sources */,
+				83D32E6CBED9CAD4C99B6C43 /* Frameworks */,
+				83D32C16275424304CFC3341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanMyMacFiles;
+			productName = CleanMyMacFiles;
+			productReference = 83D3240EF718D1A633C2D51F /* CleanMyMacFiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D32DC9D2529DC4D415DF88 /* CleanMyMacFilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D3282A6452FC653359697F /* Build configuration list for PBXNativeTarget "CleanMyMacFilesUITests" */;
+			buildPhases = (
+				83D32939CBD50F88D712E6C6 /* Sources */,
+				83D327D4EB6B5847FA1B67A3 /* Frameworks */,
+				83D3228802B62EF23243F0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D3229C880659F91ED4EF8B /* PBXTargetDependency */,
+			);
+			name = CleanMyMacFilesUITests;
+			productName = CleanMyMacFilesUITests;
+			productReference = 83D3272251AE883EBD6112A4 /* CleanMyMacFilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D3270E723D6BED424D928A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Jarvis Su";
+			};
+			buildConfigurationList = 83D320C4D0CDACBA371F35A7 /* Build configuration list for PBXProject "CleanMyMacFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83D321B18CC6C0554DE286FC;
+			productRefGroup = 83D32108349E5601A91A84BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D3219BFD2313F996E6B4F8 /* CleanMyMacFiles */,
+				83D3207C56DB157A1FEF2911 /* CleanMyMacFilesTests */,
+				83D32DC9D2529DC4D415DF88 /* CleanMyMacFilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D3228802B62EF23243F0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D32907C699A020C4127AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D32C16275424304CFC3341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D3264DC4CC670F8E9A5884 /* Assets.xcassets in Resources */,
+				83D322C16F370097A73D9F93 /* CleanMyMacFiles.entitlements in Resources */,
+				83D32A7C9F3E6B286CAEC464 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D3233090F4CCA9BAB2C727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D32D318D46373BA0A3793A /* AppDelegate.swift in Sources */,
+				83D32F11DE717A98AB839200 /* ViewController.swift in Sources */,
+				83D3202F405996EE1B2EF90A /* CleanMyMacFiles.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D326908F01CD9951EB9231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D32C07AAA71AC366BE664D /* CleanMyMacFilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D32939CBD50F88D712E6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D3208C818B002D98560C26 /* CleanMyMacFilesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D3229C880659F91ED4EF8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D3219BFD2313F996E6B4F8 /* CleanMyMacFiles */;
+			targetProxy = 83D322EF083FF8D98CEDE04D /* PBXContainerItemProxy */;
+		};
+		83D32712E1BE9CD17DCDD793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D3219BFD2313F996E6B4F8 /* CleanMyMacFiles */;
+			targetProxy = 83D32CE3F2C90BE0A2FE59DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D32504DBC694CACF25AB8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D32E5A4E00FF26D3A14B6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D3224B1EFE5B6D049B9E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CleanMyMacFiles.app/Contents/MacOS/CleanMyMacFiles";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanMyMacFilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.CleanMyMacFilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		83D323436B4A6B84F7B3FE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CleanMyMacFiles/CleanMyMacFiles.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanMyMacFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.CleanMyMacFiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		83D325929320026CE484882E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D325BBE5693E2EF64406F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanMyMacFilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.CleanMyMacFilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CleanMyMacFiles;
+			};
+			name = Debug;
+		};
+		83D326AA8C3EE313226B0ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanMyMacFilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.CleanMyMacFilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CleanMyMacFiles;
+			};
+			name = Release;
+		};
+		83D3284F7A9440723A78962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		83D3286DB8846264703E5AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CleanMyMacFiles.app/Contents/MacOS/CleanMyMacFiles";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanMyMacFilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.CleanMyMacFilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		83D3294DD1D50E9EF2194EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CleanMyMacFiles/CleanMyMacFiles.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanMyMacFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.CleanMyMacFiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D320C4D0CDACBA371F35A7 /* Build configuration list for PBXProject "CleanMyMacFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D325929320026CE484882E /* Debug */,
+				83D3284F7A9440723A78962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D323D4103ECF84A1FD4943 /* Build configuration list for PBXNativeTarget "CleanMyMacFilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D3286DB8846264703E5AA5 /* Debug */,
+				83D3224B1EFE5B6D049B9E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83D3282A6452FC653359697F /* Build configuration list for PBXNativeTarget "CleanMyMacFilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D325BBE5693E2EF64406F5 /* Debug */,
+				83D326AA8C3EE313226B0ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83D32D1D21EE50EDE2624030 /* Build configuration list for PBXNativeTarget "CleanMyMacFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D323436B4A6B84F7B3FE17 /* Debug */,
+				83D3294DD1D50E9EF2194EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83D323AFBA871BC7ECBDA0FC /* CleanMyMacFiles.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83D32833237EBBBF2EF721E5 /* CleanMyMacFiles.xcdatamodel */,
+			);
+			currentVersion = 83D32833237EBBBF2EF721E5 /* CleanMyMacFiles.xcdatamodel */;
+			path = CleanMyMacFiles.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83D3270E723D6BED424D928A /* Project object */;
+}
